@@ -14,10 +14,13 @@ class Operation{
 private:
     double srcA,srcB;
 public:
+    Operation();
+    ~Operation(){}
     Operation(double,double);
     double getSrcA();
     double getSrcB();
     void setSrcA(double);
     void setSrcB(double);
+    virtual double run();
 };
 #endif /* defined(__Calculator__Operation__) */

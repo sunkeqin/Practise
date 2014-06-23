@@ -6,6 +6,7 @@
 //  Copyright (c) 2014年 jimmy. All rights reserved.
 //
 #include "Operation.h"
+#include "Add.h"
 #include <iostream>
 using namespace std;
 int main(int argc, const char * argv[])
@@ -18,8 +19,11 @@ int main(int argc, const char * argv[])
     cin >> left;
     cout << "请输入操作数2"<<endl;
     cin >> right;
-    Operation op(left,right);
-    cout << op.getSrcA() << " " << op.getSrcB() << endl;
+    cout<<left<<right<<endl;
+    //Operation op(left,right);
+    Add add(left,right);
+    //= new Operation(left,right);
+    cout << add.run();
     return 0;
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1E00BC1944C560008E0941 /* Add.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1E00BA1944C560008E0941 /* Add.cpp */; };
 		FEB19D451944BACD0078B7BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB19D441944BACD0078B7BC /* main.cpp */; };
 		FEB19D471944BACD0078B7BC /* Calculator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FEB19D461944BACD0078B7BC /* Calculator.1 */; };
 		FEB19D4F1944BAF60078B7BC /* Operation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB19D4D1944BAF60078B7BC /* Operation.cpp */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE1E00BA1944C560008E0941 /* Add.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Add.cpp; sourceTree = "<group>"; };
+		FE1E00BB1944C560008E0941 /* Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Add.h; sourceTree = "<group>"; };
 		FEB19D411944BACD0078B7BC /* Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculator; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB19D441944BACD0078B7BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FEB19D461944BACD0078B7BC /* Calculator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Calculator.1; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				FEB19D461944BACD0078B7BC /* Calculator.1 */,
 				FEB19D4D1944BAF60078B7BC /* Operation.cpp */,
 				FEB19D4E1944BAF60078B7BC /* Operation.h */,
+				FE1E00BA1944C560008E0941 /* Add.cpp */,
+				FE1E00BB1944C560008E0941 /* Add.h */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			files = (
 				FEB19D451944BACD0078B7BC /* main.cpp in Sources */,
 				FEB19D4F1944BAF60078B7BC /* Operation.cpp in Sources */,
+				FE1E00BC1944C560008E0941 /* Add.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +196,7 @@
 		FEB19D4B1944BACD0078B7BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -197,6 +204,7 @@
 		FEB19D4C1944BACD0078B7BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -220,6 +228,7 @@
 				FEB19D4C1944BACD0078B7BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

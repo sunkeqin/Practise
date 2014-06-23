@@ -8,6 +8,8 @@
 
 #include "Operation.h"
 
+Operation::Operation():srcA(0),srcB(0){}
+
 Operation::Operation(double a, double b):srcA(a),srcB(b){}
 
 double Operation::getSrcA(){
@@ -24,4 +26,8 @@ void Operation::setSrcA(double a){
 
 void Operation::setSrcB(double b){
     srcB = b;
+}
+
+double Operation::run(){
+    return 0;
 }
